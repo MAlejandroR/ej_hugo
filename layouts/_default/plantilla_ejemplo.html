@@ -1,0 +1,16 @@
+{{- partial "output-partial.hugo" (dict "base" "header" "page" . "parameter" .) }}
+
+
+
+<h1>Esto es una plantilla mía</h1>
+
+<h2> mas texto</h2>
+
+<h3> El título es  <span style="color:#0000cf">{{ .Title }}</span></h3>
+
+<hr />
+{{- .Content }}
+
+<h2>El valor del nombre es {{ .Site.Params.nombre}}</h2>
+<hr />
+

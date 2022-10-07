@@ -4,5 +4,64 @@ title = 'My New Hugo Site'
 
 theme = "relearn"
 
+defaultContentLanguage="es"
+defaultContentLanguageInSubdir=true
 
-otro dato
+[Languages]
+    [Languages.es]
+        title = "Ejemplo para el uso de idiomas"
+        weight = 1
+        languageName = "Español"
+        contentDir = "content/es"
+        [[Languages.es.menu.shortcuts]]
+            name="<i class='fab fa-wikipedia-w'></i>   Wiki del curso"
+            url="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Contenido"
+            weight=0
+        [[Languages.es.menu.shortcuts]]
+            name="<i class='fab fa-wikipedia-w'></i> Página de php  "
+            url="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Contenido"
+            weight=1
+        [[Languages.es.menu.shortcuts]]
+            name="<i class='fab fa-wikipedia-w'></i> Referencia de hugo  "
+            url="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Contenido"
+            weight=2
+   [Languages.en]
+        title = "Example use language"
+        weight = 2
+        contentDir = "content/en"
+        languageName = "English"
+             [[Languages.en.menu.shortcuts]]
+                 name="<i class='fab fa-wikipedia-w'></i>   Course Wiki del curso"
+                 url="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Contenido"
+                 weight=2
+             [[Languages.en.menu.shortcuts]]
+                 name="<i class='fab fa-wikipedia-w'></i> Php page  "
+                 url="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Contenido"
+                 weight=2
+             [[Languages.en.menu.shortcuts]]
+                 name="<i class='fab fa-wikipedia-w'></i>Hugo References  "
+                 url="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Contenido"
+                 weight=2
+
+    [Languages.fr]
+            title = "Exemple d'utilisation des langues"
+            weight = 3
+            languageName = "Français"
+            contentDir = "content/fr"
+[[Languages.fr.menu.shortcuts]]
+                 name="<i class='fab fa-wikipedia-w'></i>  wiki de cours"
+                 url="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Contenido"
+                 weight=2
+             [[Languages.fr.menu.shortcuts]]
+                 name="<i class='fab fa-wikipedia-w'></i> Le Php page  "
+                 url="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Contenido"
+                 weight=2
+             [[Languages.fr.menu.shortcuts]]
+                 name="<i class='fab fa-wikipedia-w'></i>La référence hugo"
+                 url="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Contenido"
+                 weight=2
+
+
+[params]
+themeVariant="neon"
+nombre = "Manuelaaaa"
