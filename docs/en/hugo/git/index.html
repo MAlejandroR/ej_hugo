@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.104.3">
+    <meta name="generator" content="Relearn 5.2.3+tip">
+    <meta name="description" content="">
+    <title>Git :: Example use language</title>
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="/css/fontawesome-all.min.css?1665153042" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fontawesome-all.min.css?1665153042" rel="stylesheet"></noscript>
+    <link href="/css/featherlight.min.css?1665153042" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/featherlight.min.css?1665153042" rel="stylesheet"></noscript>
+    <link href="/css/auto-complete.css?1665153042" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/auto-complete.css?1665153042" rel="stylesheet"></noscript>
+    <link href="/css/perfect-scrollbar.min.css?1665153042" rel="stylesheet">
+    <link href="/css/nucleus.css?1665153042" rel="stylesheet">
+    <link href="/css/fonts.css?1665153042" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/css/fonts.css?1665153042" rel="stylesheet"></noscript>
+    <link href="/css/theme.css?1665153042" rel="stylesheet">
+    <link href="/css/theme-neon.css?1665153042" rel="stylesheet" id="variant-style">
+    <link href="/css/ie.css?1665153042" rel="stylesheet">
+    <link href="/css/variant.css?1665153042" rel="stylesheet">
+    <link href="/css/print.css?1665153042" rel="stylesheet" media="print">
+    <script src="/js/variant.js?1665153042"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      var index_url="/en/index.json";
+      var root_url="/";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      // some further base stuff
+      var baseUriFull='http:\/\/example.org/';
+      window.variants && variants.init( [ 'neon' ] );
+    </script>
+    <script src="/js/jquery.min.js?1665153042" defer></script>
+  </head>
+  <body class="mobile-support default" data-url="/en/hugo/git/">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div class="navigation">
+             <a class="nav nav-next" href="/en/hugo/instalacion/" title="Instalacion (&#129106;)"><i class="fas fa-chevron-right fa-fw"></i></a>
+          </div>
+          <div class="navigation">
+             <a class="nav nav-prev" href="/en/hugo/" title="Hugo (&#129104;)"><i class="fas fa-chevron-left fa-fw"></i></a>
+          </div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" title='Menu (CTRL+ALT+m)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <span id="toc-menu" title='Table of Contents (CTRL+ALT+t)'><i class="fas fa-list-alt fa-fw"></i></span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <meta itemprop="itemListOrder" content="Descending" />
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="3" /><a itemprop="item" href="/en/"><span itemprop="name">Example use language</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="2" /><a itemprop="item" href="/en/hugo/"><span itemprop="name">Hugo</span></a> > </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><meta itemprop="position" content="1" /><a itemprop="item" href="/en/hugo/git/" aria-disabled="true"><span itemprop="name">Git</span></a></li>
+            </ol>
+          </div>
+          <div class="default-animation progress">
+            <div class="wrapper">
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#crear-un-repositorio-nuevo-y-ligarlo-al-local">Crear un repositorio nuevo y ligarlo al local</a>
+      <ul>
+        <li><a href="#copiar-un-proyecto-en-otro-destino">copiar un proyecto en otro destino</a></li>
+        <li><a href="#actualizando-un-proyecto-modificado-en-otro-lugar">Actualizando un proyecto modificado en otro lugar</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable default" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <div id="head-tags">
+          </div>
+          <article class="default">
+<h1>Git</h1>
+
+<h1 id="repositorio-en-github">Repositorio en github</h1>
+<h2 id="crear-un-repositorio-nuevo-y-ligarlo-al-local">Crear un repositorio nuevo y ligarlo al local</h2>
+<ol>
+<li>
+<p>Accedemos a github con nuestro usuario y password</p>
+</li>
+<li>
+<p>En nuestra cuenta creamos un repositorio</p>
+</li>
+<li>
+<p>En este momento nos mostrará la página una serie de comandos que hay que ejecutar en local. Las acciones son:
+4. Vamos a local al directorio donde está nuestro proyecto
+5. ejecutamos
+6. <code>bash 7.   git init  # este comando incializa nuestro directorio como un proyecto de git . Habrá crado un directorio llamado .git  9. </code></p>
+<pre><code>  ```bash
+  git add .  # con este comando añadimos los ficheros de mi directorio (todos por especifica .) al repositorio 
+  ```main
+
+  ```bash
+  git commit -m &quot;mensaje de checkpoint&quot; .  # con este comando especificamos un mensaje para los cambios actuales 
+  ```
+ ```bash
+git branch -M main  # Creamos una rama o directorio de trabajo asociado a el repositorio local 
+```
+</code></pre>
+</li>
+</ol>
+<pre tabindex="0"><code class="language-brach" data-lang="brach">git add remote origin https://github.com/MAlejandroR/ #Ligamos el repositorio local al repositorio remoto
+</code></pre><pre tabindex="0"><code class="language-brach" data-lang="brach">git push origin main # Sube los ficheros añadidos al remoto
+</code></pre><h3 id="copiar-un-proyecto-en-otro-destino">copiar un proyecto en otro destino</h3>
+<ol>
+<li>Accedo a git hub y copio la url del repositorio</li>
+<li>escribo</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone <span style="color:#e6db74">&#34;la url&#34;</span>  <span style="color:#75715e"># creará un directorio con el nombre del proyecto y todo el contendo</span>
+</span></span></code></pre></div><p>3.- trabajo normal y al final hago un push</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add *
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;nuevos cambios&#34;</span>
+</span></span><span style="display:flex;"><span>git push -u origin main <span style="color:#75715e"># Con esto acutalizaré el proyecto en github con los últimos cambios</span>
+</span></span></code></pre></div><h3 id="actualizando-un-proyecto-modificado-en-otro-lugar">Actualizando un proyecto modificado en otro lugar</h3>
+<p>*Acualizo el proyecot en local con el remoto</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git pull
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">``</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>      
+</span></span></code></pre></div>
+            <footer class="footline">
+            </footer>
+          </article>
+        </div>
+      </main>
+    </div>
+    <aside id="sidebar" class="default-animation">
+      <div id="header-wrapper" class="default-animation">
+        <div id="header" class="default-animation">
+          <style>
+            #logo svg,
+            #logo svg * {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              fill: #282828 !important;
+              fill: var(--MENU-SECTIONS-BG-color) !important;
+              opacity: .945;
+            }
+            a#logo {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+              font-family: 'Work Sans', 'Helvetica', 'Tahoma', 'Geneva', 'Arial', sans-serif;
+              font-size: 30px;
+              font-weight: 300;
+              margin-top: -13px;
+              max-width: 60%;
+              text-transform: uppercase;
+              width: 226px;
+              white-space: nowrap;
+            }
+            a#logo:hover {
+              color: #282828;
+              color: var(--MENU-SECTIONS-BG-color);
+            }
+            #logo svg {
+              margin-bottom: -20px;
+              margin-left: -23.5px;
+              width: 40.5%;
+            }
+            @media only all and (max-width: 59.938em) {
+              a#logo {
+                font-size: 25px;
+                margin-top: -3px;
+              }
+              #logo svg {
+                margin-bottom: -12px;
+                margin-left: -23px;
+              }
+            }
+            @media all and (-ms-high-contrast:none) {
+              /* IE11s understanding of positioning is weird at best */
+              a#logo {
+                margin-top: -58px;
+              }
+              #logo svg {
+                margin-bottom: -62px;
+              }
+            }
+          </style>
+          <a id="logo" href="/en/">
+          <img src="/imagen/logo.png" alt="logo">
+            Relearn
+          </a>
+        </div>
+        <div class="searchbox default-animation">
+          <label for="search-by"><i class="fas fa-search"></i></label>
+          <input data-search-input id="search-by" type="search" placeholder="Search...">
+          <span data-search-clear=""><i class="fas fa-times"></i></span>
+        </div>
+        <script>
+          var contentLangs=['en'];
+        </script>
+        <script src="/js/auto-complete.js?1665153042" defer></script>
+        <script src="/js/lunr.min.js?1665153042" defer></script>
+        <script src="/js/lunr.stemmer.support.min.js?1665153042" defer></script>
+        <script src="/js/lunr.multi.min.js?1665153042" defer></script>
+        <script src="/js/lunr.en.min.js?1665153042" defer></script>
+        <script src="/js/search.js?1665153042" defer></script>
+      </div>
+      <div id="homelinks" class="default-animation">
+        <ul>
+          <li>
+              <a class="padding" href="/en/"><i class="fas fa-home"></i> Home</a>
+          </li>
+        </ul>
+      </div>
+      <div id="content-wrapper" class="highlightable">
+        <ul class="topics">
+          <li data-nav-id="/en/descargas/" title="Downloads" class="dd-item"><a href="/en/descargas/">Downloads</a></li>
+          <li data-nav-id="/en/hugo/" title="Hugo" class="dd-item parent"><input type="checkbox" id="section-113cf8e677282e463bfca274df11f63e" class="toggle" checked/><label for="section-113cf8e677282e463bfca274df11f63e" ></label><a href="/en/hugo/">Hugo</a><ul>
+          <li data-nav-id="/en/hugo/git/" title="Git" class="dd-item active"><a href="/en/hugo/git/">Git</a></li>
+          <li data-nav-id="/en/hugo/instalacion/" title="Instalacion" class="dd-item"><a href="/en/hugo/instalacion/">Instalacion</a></li></ul></li>
+        </ul>
+        <div id="shortcuts">
+          <div class="nav-title">More</div>
+          <ul>
+            <li><a class="padding" href="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Contenido"><i class='fab fa-wikipedia-w'></i>   Course Wiki del curso</a></li>
+            <li><a class="padding" href="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Contenido"><i class='fab fa-wikipedia-w'></i> Php page  </a></li>
+            <li><a class="padding" href="https://es.wikieducator.org/Usuario:ManuelRomero/ProgramacionWeb/Contenido"><i class='fab fa-wikipedia-w'></i>Hugo References  </a></li>
+          </ul>
+        </div>
+        <div class="footermargin footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showLangSwitch showFooter"></div>
+        <hr class="default-animation footerLangSwitch footerVariantSwitch footerVisitedLinks footerFooter showLangSwitch showFooter"/>
+        <div id="prefooter" class="footerLangSwitch footerVariantSwitch footerVisitedLinks showLangSwitch">
+          <ul>
+            <li id="select-language-container" class="footerLangSwitch showLangSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-language fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-language" onchange="location = baseUri + this.value;">
+                    <option id="es" value="/es/hugo/git/">Español</option>
+                    <option id="en" value="/en/hugo/git/" selected>English</option>
+                    <option id="fr" value="/fr/hugo/git/">Français</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+            </li>
+            <li id="select-variant-container" class="footerVariantSwitch">
+              <a class="padding select-container">
+                <i class="fas fa-paint-brush fa-fw"></i>
+                <span>&nbsp;</span>
+                <div class="select-style">
+                  <select id="select-variant" onchange="window.variants && variants.changeVariant( this.value );">
+                    <option id="neon" value="neon" selected>Neon</option>
+                  </select>
+                </div>
+                <div class="select-clear"></div>
+              </a>
+              <script>window.variants && variants.markSelectedVariant();</script>
+            </li>
+            <li class="footerVisitedLinks"><a class="padding" onclick="clearHistory();"><i class="fas fa-history fa-fw"></i> Clear History</a></li>
+          </ul>
+        </div>
+        <div id="footer" class="footerFooter showFooter">
+	    <p>@Manuel Romero  <a href="https://github.com/McShelby/hugo-theme-relearn"></a> by <a href="https://cpilosenlaces.com/">CPI Los enlaces</a></p>
+        </div>
+      </div>
+    </aside>
+    <script src="/js/clipboard.min.js?1665153042" defer></script>
+    <script src="/js/perfect-scrollbar.min.js?1665153042" defer></script>
+    <script src="/js/featherlight.min.js?1665153042" defer></script>
+    <script src="/js/theme.js?1665153042" defer></script>
+  </body>
+</html>

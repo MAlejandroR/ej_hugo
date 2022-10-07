@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exemple d&#39;utilisation des langues</title>
+    <link>http://example.org/fr/</link>
+    <description>Recent content on Exemple d&#39;utilisation des langues</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 27 Sep 2022 19:52:53 +0200</lastBuildDate><atom:link href="http://example.org/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo</title>
+      <link>http://example.org/fr/hugo/</link>
+      <pubDate>Tue, 27 Sep 2022 17:31:58 +0200</pubDate>
+      <guid>http://example.org/fr/hugo/</guid>
+      <description>Instalación Adaptar una plantilla o tema </description>
+    </item>
+  </channel>
+</rss>
