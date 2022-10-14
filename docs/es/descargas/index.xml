@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Downloads on Ejemplo para el uso de idiomas</title>
-    <link>http://example.org/es/descargas/</link>
+    <link>https://malejandror.github.io/ej_hugo/es/descargas/</link>
     <description>Recent content in Downloads on Ejemplo para el uso de idiomas</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/es/descargas/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://malejandror.github.io/ej_hugo/es/descargas/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

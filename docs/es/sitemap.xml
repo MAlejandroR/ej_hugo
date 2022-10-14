@@ -1,149 +1,149 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/es/descargas/</loc>
+    <loc>https://malejandror.github.io/ej_hugo/es/descargas/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/descargas/"
+                href="https://malejandror.github.io/ej_hugo/en/descargas/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://example.org/fr/descargas/"
+                href="https://malejandror.github.io/ej_hugo/fr/descargas/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/descargas/"
+                href="https://malejandror.github.io/ej_hugo/es/descargas/"
                 />
   </url>
   <url>
-    <loc>http://example.org/es/hugo/</loc>
+    <loc>https://malejandror.github.io/ej_hugo/es/hugo/</loc>
     <lastmod>2022-09-27T17:31:58+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/hugo/"
+                href="https://malejandror.github.io/ej_hugo/en/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://example.org/fr/hugo/"
+                href="https://malejandror.github.io/ej_hugo/fr/hugo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/hugo/"
+                href="https://malejandror.github.io/ej_hugo/es/hugo/"
                 />
   </url>
   <url>
-    <loc>http://example.org/es/</loc>
+    <loc>https://malejandror.github.io/ej_hugo/es/</loc>
     <lastmod>2022-10-04T19:55:06+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/"
+                href="https://malejandror.github.io/ej_hugo/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://example.org/fr/"
+                href="https://malejandror.github.io/ej_hugo/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/"
+                href="https://malejandror.github.io/ej_hugo/es/"
                 />
   </url>
   <url>
-    <loc>http://example.org/es/television/</loc>
+    <loc>https://malejandror.github.io/ej_hugo/es/television/</loc>
     <lastmod>2022-10-04T19:55:06+02:00</lastmod>
   </url>
   <url>
-    <loc>http://example.org/es/programacion/tv/</loc>
+    <loc>https://malejandror.github.io/ej_hugo/es/programacion/tv/</loc>
     <lastmod>2022-10-04T19:52:59+02:00</lastmod>
   </url>
   <url>
-    <loc>http://example.org/es/programacion/tema_1/</loc>
+    <loc>https://malejandror.github.io/ej_hugo/es/programacion/tema_1/</loc>
     <lastmod>2022-10-04T18:04:41+02:00</lastmod>
   </url>
   <url>
-    <loc>http://example.org/es/programacion/</loc>
+    <loc>https://malejandror.github.io/ej_hugo/es/programacion/</loc>
     <lastmod>2022-10-04T18:04:33+02:00</lastmod>
   </url>
   <url>
-    <loc>http://example.org/es/hugo/git/</loc>
+    <loc>https://malejandror.github.io/ej_hugo/es/hugo/git/</loc>
     <lastmod>2022-09-27T19:52:53+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/hugo/git/"
+                href="https://malejandror.github.io/ej_hugo/en/hugo/git/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://example.org/fr/hugo/git/"
+                href="https://malejandror.github.io/ej_hugo/fr/hugo/git/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/hugo/git/"
+                href="https://malejandror.github.io/ej_hugo/es/hugo/git/"
                 />
   </url>
   <url>
-    <loc>http://example.org/es/hugo/instalacion/</loc>
+    <loc>https://malejandror.github.io/ej_hugo/es/hugo/instalacion/</loc>
     <lastmod>2022-09-27T17:34:05+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/hugo/instalacion/"
+                href="https://malejandror.github.io/ej_hugo/en/hugo/instalacion/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://example.org/fr/hugo/instalacion/"
+                href="https://malejandror.github.io/ej_hugo/fr/hugo/instalacion/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/hugo/instalacion/"
+                href="https://malejandror.github.io/ej_hugo/es/hugo/instalacion/"
                 />
   </url>
   <url>
-    <loc>http://example.org/es/categories/</loc>
+    <loc>https://malejandror.github.io/ej_hugo/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/categories/"
+                href="https://malejandror.github.io/ej_hugo/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://example.org/fr/categories/"
+                href="https://malejandror.github.io/ej_hugo/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/categories/"
+                href="https://malejandror.github.io/ej_hugo/es/categories/"
                 />
   </url>
   <url>
-    <loc>http://example.org/es/tags/</loc>
+    <loc>https://malejandror.github.io/ej_hugo/es/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://example.org/en/tags/"
+                href="https://malejandror.github.io/ej_hugo/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://example.org/fr/tags/"
+                href="https://malejandror.github.io/ej_hugo/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://example.org/es/tags/"
+                href="https://malejandror.github.io/ej_hugo/es/tags/"
                 />
   </url>
 </urlset>
