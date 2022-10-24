@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Television on Ejemplo para el uso de idiomas</title>
-    <link>http://example.org/es/television/</link>
+    <link>https://malejandror.github.io/ej_hugo/es/television/</link>
     <description>Recent content in Television on Ejemplo para el uso de idiomas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Oct 2022 19:55:06 +0200</lastBuildDate><atom:link href="http://example.org/es/television/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Oct 2022 19:55:06 +0200</lastBuildDate><atom:link href="https://malejandror.github.io/ej_hugo/es/television/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Programacion on Ejemplo para el uso de idiomas</title>
-    <link>http://example.org/es/programacion/</link>
+    <link>https://malejandror.github.io/ej_hugo/es/programacion/</link>
     <description>Recent content in Programacion on Ejemplo para el uso de idiomas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 04 Oct 2022 18:04:33 +0200</lastBuildDate><atom:link href="http://example.org/es/programacion/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 Oct 2022 18:04:33 +0200</lastBuildDate><atom:link href="https://malejandror.github.io/ej_hugo/es/programacion/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tv</title>
-      <link>http://example.org/es/programacion/tv/</link>
+      <link>https://malejandror.github.io/ej_hugo/es/programacion/tv/</link>
       <pubDate>Tue, 04 Oct 2022 19:52:59 +0200</pubDate>
-      <guid>http://example.org/es/programacion/tv/</guid>
+      <guid>https://malejandror.github.io/ej_hugo/es/programacion/tv/</guid>
       <description>Listado de canales </description>
     </item>
     <item>
       <title>Tema_1</title>
-      <link>http://example.org/es/programacion/tema_1/</link>
+      <link>https://malejandror.github.io/ej_hugo/es/programacion/tema_1/</link>
       <pubDate>Tue, 04 Oct 2022 18:04:41 +0200</pubDate>
-      <guid>http://example.org/es/programacion/tema_1/</guid>
+      <guid>https://malejandror.github.io/ej_hugo/es/programacion/tema_1/</guid>
       <description>uso de plantillas Estoy usando otra plantilla</description>
     </item>
   </channel>

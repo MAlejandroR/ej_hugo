@@ -7,7 +7,13 @@ weight : 2
 
 ### Instalación
 
-
+```mermaid
+graph LR;
+    A[Cliente]--solicitud-->B[Servidor]-->D[dns];
+    A-->C;
+   
+    C-->D;
+```
 
 ### Adaptar una plantilla o tema
 
